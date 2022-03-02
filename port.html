@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Portfolio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+   element.classList.toggle("dark-mode .jumbotron");
+}
+</script>
+<style>
+.jumbotron {
+    padding-top: 25px !important;
+    padding-bottom: 25px !important;
+    margin-bottom: 0;
+    background-color: #500000;
+    color: white;
+}
+body {
+    padding: 0px;
+    background-color: #EBE8DF;
+    color: black;
+}
+.dark-mode {
+    padding: 0px;
+    background-color: black;
+    color: white; 
+}
+.dark-mode .jumbotron{
+    padding: 0px;
+    background-color: black;
+    color: white; 
+}
+</style>
+</head>
+<body>
+
+<div class="jumbotron text-center jumbotron-fluid">
+    <h1 style="font-size: 300%">Portfolio</h1>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="port.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="qual.html">Qualification</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="service.html">Service</a>
+        </li>    
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" type="button" onclick="myFunction()">Dark mode</a>
+            </li>     
+        </ul>        
+    </div>  
+</nav>
+
+<div class="container-fluid" >
+    <br>
+    <h1 style="font-size:450%;text-align: center">Projects</h1>    
+    <br>   
+    <h1 style="font-size:300%;text-align: center">Discord Bot</h1>  
+    <br>
+    <div class="mx-auto" style="width: 400px">
+        <img src="img/disc.jpg" class="img-fluid" alt="Responsive image">
+    </div>  
+    <div style="font-size:150%;text-align: center">    
+        <a href="https://discordpy.readthedocs.io/en/stable/" class="link-info">Discord.py Documentation</a>
+    </div>
+    <p style="font-size:150%;text-align: center"> I'm in the process of creating my own discord bot do functions such as mini games, music player, management, etc. </p>     
+    <br>
+    <h1 style="font-size:300%;text-align: center">Modding Games</h1> 
+    <br>   
+    <div class="mx-auto" style="width: 400px">
+        <img src="img/mc.jpg" class="img-fluid" alt="Responsive image">
+    </div> 
+    <div style="font-size:150%;text-align: center">    
+        <a href="https://www.minecraft.net/en-us/article/scripting-api-now-public-beta" class="link-info">Minecraft Scripting API</a>
+    </div>           
+    <p style="font-size:150%;text-align: center"> I would like to create a fun little creative mod in minecraft to start, then move on to other games. </p>    
+    <br>     
+    <h1 style="font-size:200%;text-align: center">Making an App</h1>    
+    <br>
+    <div class="mx-auto" style="width: 400px">
+        <img src="img/app.jpg" class="img-fluid" alt="Responsive image">
+    </div>     
+    <div style="font-size:150%;text-align: center">    
+        <a href="https://developer.apple.com/" class="link-info">iOS Developer</a>
+        <br>
+        <a href="https://developer.android.com/" class="link-info">Andriod Developer</a>
+    </div>    
+    <p style="font-size:150%;text-align: center"> I would like to try and make an app, could be a little game, but more likely I would create something personally useful.</p> 
+    <p style="font-size:150%;text-align: center"> Examples: Stock tracker, minigame, etc.</p> 
+    <br> 
+    <h1 style="font-size:200%;text-align: center">Machine learning & Artificial Intelligence</h1>  
+    <br>
+    <div class="mx-auto" style="width: 400px">
+        <img src="img/ai.jpg" class="img-fluid" alt="Responsive image">
+    </div>  
+    <div style="font-size:150%;text-align: center">    
+        <a href="https://becominghuman.ai/write-your-first-ai-project-in-15-minutes-a287ed348e7c" class="link-info">AI Project Guide</a>
+    </div>    
+    <p style="font-size:150%;text-align: center"> Eventually, I would like to try to do something with machine learning or artificial intelligence. </p>                  
+</div>
+
+</body>
+</html>
